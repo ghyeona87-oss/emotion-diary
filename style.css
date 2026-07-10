@@ -73,3 +73,128 @@ body{
     background-color:#5aaed6;
     transform:scale(1.05);
 }
+
+body{
+
+    margin:0;
+
+    padding:0;
+
+    background:#f7f9fc;
+
+    font-family:"맑은 고딕",sans-serif;
+
+}
+
+h1{
+
+    text-align:center;
+
+    margin-top:50px;
+
+    font-size:45px;
+
+}
+
+.buttonGroup{
+
+    width:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    margin-top:60px;
+
+    gap:25px;
+
+}
+
+.buttonGroup button{
+
+    width:80%;
+
+    max-width:500px;
+
+    height:90px;
+
+    font-size:30px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#43ce51a8;
+
+    color:white;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+.buttonGroup button:hover{
+
+    transform:scale(1.05);
+
+    background:#2d7f43;
+
+}
+
+@media (max-width:768px){
+
+    h1{
+
+        font-size:32px;
+
+        margin-top:35px;
+
+    }
+
+    .buttonGroup{
+
+        margin-top:40px;
+
+        gap:18px;
+
+    }
+
+    .buttonGroup button{
+
+        width:90%;
+
+        height:75px;
+
+        font-size:24px;
+
+    }
+
+}
+
+body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    text-align:center;
+}
+
+#song{
+    text-align:center;
+    margin:20px 0;
+}
+
+#homeBtn{
+    padding:12px 30px;
+    font-size:18px;
+}
